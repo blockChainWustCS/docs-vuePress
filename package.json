@@ -1,0 +1,15 @@
+{
+  "name": "docs-vuePress",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:blockChainWustCS/docs-vuePress.git",
+  "author": "徐静波 <897884964@qq.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.51"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  }
+}
